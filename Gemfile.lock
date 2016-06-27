@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     dotenv (2.0.2)
+    forgery (0.6.0)
     pg (0.18.4)
     sequel (4.27.0)
 
@@ -10,6 +11,7 @@ PLATFORMS
 
 DEPENDENCIES
   dotenv
+  forgery
   pg (~> 0.18.4)
   sequel
 

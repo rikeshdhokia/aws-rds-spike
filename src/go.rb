@@ -1,6 +1,10 @@
 require_relative 'rds_connection'
 
-p 'go'
+DB = RdsConnection.new
 
-connection = RdsConnection.new
-p connection
+p DB.inspect
+
+# messages = DB[:messages]
+
+# p messages
+
